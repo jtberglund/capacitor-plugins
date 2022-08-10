@@ -116,7 +116,6 @@ public class SharePlugin extends Plugin {
                 if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
                     flags = flags | PendingIntent.FLAG_MUTABLE;
                 }
-                // HEY
 
                 PendingIntent pi = PendingIntent.getBroadcast(
                     getContext(),
